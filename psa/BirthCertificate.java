@@ -33,7 +33,12 @@ public class BirthCertificate extends Receipt{
     private String fatherResidence;
     private String fatherCity;
     private String fatherProvince;
-
+public void setAdminName(String fistName, String middleName, String lastName, char sex, int dateOfBirth,String placeOfBirthName,String placeOfBirthCity, String placeOfBirthProvince 
+ , String motherFirstName, String motherMiddleName,  String motherLastName,  String motherCitizenship, String motherReligion, String motherOccupation,  int motherAgeAtBirth,
+   String motherResidence, String motherCity, String motherProvince,String fatherFirstName, String fatherMiddleName,   String fatherLastName, String fatherCitizenship
+   ,  String fatherReligion ,  String fatherOccupation, int fatherAgeAtBirth, String fatherResidence, String fatherCity,  String fatherProvince){
+ 
+}
     public void displayInformation() {
          System.out.println("  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
        System.out.println("");
